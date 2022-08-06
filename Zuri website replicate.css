@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+header {
+  background-image: url(https://zuri.team/img/hero-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  height: 52vw;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 72px 0px;
+}
+
+header h2 {
+  text-align: center;
+  padding: 12px 0px;
+  color: rgba(0, 0, 0, 0.71);
+}
+
+header p {
+  text-align: center;
+  width: 640px;
+  margin: auto;
+  padding: 20px 0px;
+  color: rgba(0, 0, 0, 0.71);
+}
+
+header div {
+  width: 605px;
+  margin: auto;
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.butt1 {
+  padding: 11px 30px;
+  border: none;
+  margin: 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.butt1:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  outline: none;
+}
+
+.butt2 {
+  padding: 10px 30px;
+  margin: 10px;
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+  cursor: pointer;
+}
+
+.butt2:hover {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+span {
+  color: red;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    background-image: url(https://zuri.team/img/hero-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 170vw;
+  }
+
+  header nav {
+    padding: 120px 0px 80px 0px;
+  }
+
+  header p {
+    width: 92%;
+    padding: 20px 0px;
+  }
+
+  header div {
+    width: 350px;
+    margin: auto;
+    padding: 60px 40px;
+    display: block;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .butt1 {
+    margin: 10px 22px;
+  }
+
+  .butt2 {
+    margin: 10px 10px;
+  }
+}
+
+/*
+https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png
+
+https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png
+
+
+
+
+
+
+
+
+
+
+
+*/
